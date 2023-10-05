@@ -1,0 +1,55 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(92, 30, 17, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-container {
+  background: rgba(23, 4, 0, 255);
+  padding: 30px;
+  width: 400px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+}
+.small-container > .input-box {
+  margin-top: 30px;
+}
+
+.small-container > h1 {
+  color: #fff;
+}
+.small-container > .input-box > p {
+  color: #fff;
+  font-weight: 500;
+}
+.small-container > .input-box > input {
+  color: #b20113;
+  width: 100%;
+  padding: 10px 0px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #b20113;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.small-container > .input-box > input::placeholder {
+  color: #b20113;
+}
+
+.enter-room {
+  background: #b20113;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-top: 50px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}

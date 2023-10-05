@@ -1,0 +1,79 @@
+.message-container {
+  background: rgba(92, 30, 17, 255);
+  width: 100vw;
+  height: 100vh;
+}
+
+.message-main-container {
+  background: rgba(23, 4, 0, 255);
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.users {
+  background: white;
+  width: 30%;
+  height: 100%;
+}
+.messages-section {
+  width: 70%;
+  height: 100%;
+  position: relative;
+}
+.messages{
+    padding: 20px;
+    height: 90%;
+    overflow: auto;
+}
+.my-message{
+    background: #7a706e;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 20px;
+    float: right;
+    clear: both;
+    margin-bottom: 30px;
+}
+.client-message{
+    background: #d2b5b6;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    float: left;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.message-box > input {
+  width: 100%;
+  padding: 10px 20px;
+      bottom: 0px;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid red;
+  font-size: 17px;
+  outline: none;    
+}
+.message-box{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+}
+.message-box > button{
+    background: red;
+    outline: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.message-box > input{
+    color: red;
+}
+.message-box > input::placeholder {
+  color: red;
+}
